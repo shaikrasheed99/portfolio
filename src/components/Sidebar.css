@@ -1,0 +1,33 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: #e0e0e0;
+    z-index: 1000;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    color: #e0e0e0;
+    padding: 15px 0;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #00bcd4;
+}
